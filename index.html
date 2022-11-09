@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Heart for Đần Đần</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -157,8 +157,12 @@
           q: ~~(rand() * heartPointsCount),
           D: 2 * (i % 2) - 1,
           force: 0.2 * rand() + 0.7,
-          //f: "hsla(0," + ~~(40 * rand() + 60) + "%," + ~~(60 * rand() + 20) + "%,.3)",
-          f: "#C9322B",
+          f:
+            "hsla(0," +
+            ~~(40 * rand() + 60) +
+            "%," +
+            ~~(60 * rand() + 20) +
+            "%,.3)",
           trace: [],
         };
         for (var k = 0; k < traceCount; k++)
